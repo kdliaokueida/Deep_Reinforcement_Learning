@@ -45,25 +45,25 @@ Follow the instructions in `Navigation.ipynb` to get the workspace ready for tra
 1. Double DQN (`dqn_agent.py`,`DQNmodel.py`,`model.pth`):
 - The model uses 3 fully-connected layers as hidden layers, and each layer has 128 units. 
 - Discount rate (gamma) = 0.99
-- Stochastic rando (epsilon): initial = 1.0; final = 0.01; decay rate = 0.995
+- Stochastic randomness (epsilon): initial = 1.0; final = 0.01; decay rate = 0.995
 - Learning rate = 0.0005
 - Training max episode = 2500
 
-- **Result: 14.99 test on average of 100 episodes**
+- **Result: 14.47 test on average of 100 episodes**
 
 2. Duel DQN (`duel_dqn_agent.py`,`DuelDQNmodel.py`,`DuelDQN_128x2FC_128FC.pth`):
 - The model uses 2 fully-connected 128-unit layers as feature extraction layers, an 128-unit layer as value layer, and an 128-unit layer as advantage layer. 
 - Discount rate (gamma) = 0.99
--  Stochastic rando (epsilon): initial = 1.0; final = 0.01; decay rate = 0.995
+- Stochastic randomness (epsilon): initial = 1.0; final = 0.01; decay rate = 0.995
 - Learning rate = 0.0005
 - Training max episode = 2500
 
-- **Result: 9.86 test on average of 100 episodes**
+- **Result: 12.36 test on average of 100 episodes**
 
 3. Prioritized Experience Replay DQN (`replay_dqn_agent.py`,`DQNmodel.py`,`PERDQN_128x3FC.pth`):
 - The model is the same as the Double DQN model.
 - Discount rate (gamma) = 0.99
-- Stochastic random (epsilon): initial = 1.0; final = 0.01; decay rate = 0.995
+- Stochastic randomness (epsilon): initial = 1.0; final = 0.01; decay rate = 0.995
 - Learning rate = 0.0001
 - Sample bias (alpha) = 0.6
 - Compensate weight (beta): initial = 0.6; final = 1.0; time to saturate = 2000
