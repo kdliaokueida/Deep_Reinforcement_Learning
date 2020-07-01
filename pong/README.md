@@ -25,11 +25,3 @@ The task is episodic, and in order to solve the environment.
 2. Some utility functions are in `pong_utils.py`
 
 3. Environment settings for training multiple agents at the same time are in `parallelEnv.py`
-
-
-- Compensate weight (beta): initial = 0.6; final = 1.0; time to saturate = 2000
-- Training max episode = 20000
-- Replay module is from [click here](https://github.com/openai/baselines/blob/master/baselines/deepq/replay_buffer.py)
-
-- **Never solved**
-- **Result: 8.1 test on average of 100 episodes**
