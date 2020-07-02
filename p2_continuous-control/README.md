@@ -8,6 +8,8 @@
 
 ### Introduction
 
+This is the second coding project in Deep Reinforcement Learning Nanodgree Program on Udacity. 
+
 For this project, you will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
 
 ![Trained Agent][image1]
@@ -26,7 +28,7 @@ The second version is useful for algorithms like [PPO](https://arxiv.org/pdf/170
 
 ### Solving the Environment
 
-Note that your project submission need only solve one of the two versions of the environment. 
+There are two options for the environment. For this project, I select option 2 - trianing with multiple agents (as shown in `Continuous_Control.ipynb`). 
 
 #### Option 1: Solve the First Version
 
@@ -64,7 +66,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+Follow the instructions in `Continuous_Control.ipynb` to get started with training a smart agent!  
 
 ### (Optional) Challenge: Crawler Environment
 
@@ -86,3 +88,7 @@ Then, place the file in the `p2_continuous-control/` folder in the DRLND GitHub 
 
 (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
+
+### Results
+
+For the results, please refer to the `Report.pdf`.
